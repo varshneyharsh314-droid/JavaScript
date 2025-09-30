@@ -1,7 +1,7 @@
 //  Primitive
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
-
+// these are call by value
 const score = 100
 const scoreValue = 100.3
 
@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+console.log(id === anotherId); // false
 
 // const bigNumber = 3456543576654356754n
 
