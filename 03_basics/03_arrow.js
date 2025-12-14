@@ -13,11 +13,11 @@ const user = {
 // user.username = "sam"
 // user.welcomeMessage()
 
-// console.log(this);
+// console.log(this);  // in browser and node give different output
 
 // function chai(){
 //     let username = "hitesh"
-//     console.log(this.username);
+//     console.log(this.username); // undefined not use just like objects
 // }
 
 // chai()
