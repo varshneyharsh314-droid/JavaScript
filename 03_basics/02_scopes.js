@@ -44,7 +44,7 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+console.log(addone(5)) // in this case no effect
 
 function addone(num){
     return num + 1
@@ -52,7 +52,7 @@ function addone(num){
 
 
 
-addTwo(5)
+addTwo(5) // in this case error comes (it depends how you create function)
 const addTwo = function(num){
     return num + 2
 }
